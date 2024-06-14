@@ -5,31 +5,32 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".ConnectActivity">
+
+    <EditText
+        android:id="@+id/editConnectIP"
+        android:layout_width="355dp"
+        android:layout_height="98dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="IP address"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.246" />
 
     <Button
-        android:id="@+id/btnHost"
-        android:layout_width="343dp"
-        android:layout_height="235dp"
-        android:text="create room"
+        android:id="@+id/btnConnect"
+        android:layout_width="260dp"
+        android:layout_height="197dp"
+        android:text="Connect"
         android:textSize="100px"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.537"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.123" />
-
-    <Button
-        android:id="@+id/btnJoin"
-        android:layout_width="343dp"
-        android:layout_height="235dp"
-        android:text="join room"
-        android:textSize="100px"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.517"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.891" />
+        app:layout_constraintVertical_bias="0.787" />
 </androidx.constraintlayout.widget.ConstraintLayout>
